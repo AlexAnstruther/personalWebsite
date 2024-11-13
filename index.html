@@ -6,20 +6,20 @@
 <body>
     <pre style="font-family: Consolas, 'Courier New', Courier, monospace;">
         <code>
-            <span style="color: #C586C0;">import</span> <span style="color: #569CD6;">personal_branding</span> <span style="color: #C586C0;">as</span> <span style="color: #569CD6;">pb</span><br>
+            <span style="color: #FF00FF;">import</span> <span style="color: #267F99;">personal_branding</span> <span style="color: #FF00FF;">as</span> <span style="color: #267F99;">pb</span><br>
             <br>
-            <span style="color: #C586C0;">def</span> <span style="color: #DCDCAA;">about_me</span>(<span style="color: #17267c;">name</span>, <span style="color: #17267c;">area_of_residence</span>, <span style="color: #17267c;">interests</span>, <span style="color: #17267c;">occupation</span>, <span style="color: #17267c;">email</span>):<br>
-                &nbsp;<span style="color: #C586C0;">return</span> (<span style="color: #CE9178;">f"""Hi, my name is </span><span style="color: #4EC9B0;">{</span><span style="color: #17267c;">name</span><span style="color: #4EC9B0;">}</span><span style="color: #CE9178;">.<br>
-                        &nbsp;I'm a </span><span style="color: #4EC9B0;">{</span><span style="color: #17267c;">area_of_residence</span><span style="color: #4EC9B0;">}</span><span style="color: #CE9178;"> based </span><span style="color: #4EC9B0;">{</span><span style="color: #569CD6;">pb</span>.exaggerate(<span style="color: #17267c;">occupation</span>)<span style="color: #4EC9B0;">}</span><span style="color: #CE9178;">.<br>
-                        &nbsp;I'm interested in f</span><span style="color: #4EC9B0;">{</span><span style="color: #569CD6;">pb</span>.commodify(<span style="color: #17267c;">interests</span>)<span style="color: #4EC9B0;">}</span><span style="color: #CE9178;">. If you are too, get in touch at: </span><span style="color: #4EC9B0;">{</span><span style="color: #17267c;">email</span><span style="color: #4EC9B0;">}</span><span style="color: #CE9178;">"""</span>)<br>
+            <span style="color: #FF00FF;">def</span> <span style="color: #795E26;">about_me</span>(<span style="color: #000096;">name</span>, <span style="color: #000096;">area_of_residence</span>, <span style="color: #000096;">interests</span>, <span style="color: #000096;">occupation</span>, <span style="color: #000096;">email</span>):<br>
+                &nbsp;<span style="color: #FF00FF;">return</span> (<span style="color: #A31515;">f"""Hi, my name is </span><span style="color: #0000FF;">{</span><span style="color: #000096;">name</span><span style="color: #0000FF;">}</span><span style="color: #A31515;">.<br>
+                        &nbsp;I'm a </span><span style="color: #0000FF;">{</span><span style="color: #000096;">area_of_residence</span><span style="color: #0000FF;">}</span><span style="color: #A31515;"> based </span><span style="color: #0000FF;">{</span><span style="color: #267F99;">pb</span>.exaggerate(<span style="color: #000096;">occupation</span>)<span style="color: #0000FF;">}</span><span style="color: #A31515;">.<br>
+                        &nbsp;I'm interested in f</span><span style="color: #0000FF;">{</span><span style="color: #267F99;">pb</span>.commodify(<span style="color: #000096;">interests</span>)<span style="color: #0000FF;">}</span><span style="color: #A31515;">. If you are too, get in touch at: </span><span style="color: #0000FF;">{</span><span style="color: #000096;">email</span><span style="color: #0000FF;">}</span><span style="color: #A31515;">"""</span>)<br>
             <br>
-            <span style="color: #C586C0;">print</span>(<span style="color: #DCDCAA;">about_me</span>(<span style="color: #17267c;">name</span>=<span style="color: #CE9178;">"Alex Anstruther"</span>,<br>
-                            &nbsp;<span style="color: #17267c;">area_of_residence</span>=<span style="color: #CE9178;">"London"</span>,<br>
-                            &nbsp;<span style="color: #17267c;">interests</span>=[<span style="color: #CE9178;">"My next meal"</span>, <span style="color: #CE9178;">"Collective moral responsibility"</span>, <span style="color: #CE9178;">"Data"</span>],<br>
-                            &nbsp;<span style="color: #17267c;">occupation</span>=<span style="color: #CE9178;">"Student/Data Insights Officer"</span>,<br>
-                            &nbsp;<span style="color: #17267c;">email</span>=<a href="mailto:alex@anstruther.com"><span style="color: #CE9178;">"alex@anstruther.com"</span></a>))
+            <span style="color: #FF00FF;">print</span>(<span style="color: #795E26;">about_me</span>(<span style="color: #000096;">name</span>=<span style="color: #A31515;">"Alex Anstruther"</span>,<br>
+                            &nbsp;<span style="color: #000096;">area_of_residence</span>=<span style="color: #A31515;">"London"</span>,<br>
+                            &nbsp;<span style="color: #000096;">interests</span>=[<span style="color: #A31515;">"My next meal"</span>, <span style="color: #A31515;">"AI Safety"</span>, <span style="color: #A31515;">"Social advocacy"</span>],<br>
+                            &nbsp;<span style="color: #000096;">occupation</span>=<span style="color: #A31515;">"Unemployed"</span>,<br>
+                            &nbsp;<span style="color: #000096;">email</span>=<span style="color: #A31515;">"</span><a href="mailto:alex@anstruther.com"><span style="color: #A31515;">alex@anstruther.com</span></a><span style="color: #A31515;">"</span>))
         </code>
-        <span style="color: #CC0000;">Traceback (most recent call last):
+        <span style="color: #FF0000;">Traceback (most recent call last):
             &nbsp;File "/Users/alex_anstruther/Projects/personalWebsite/about_me.py", line 1, in &lt;module&gt;
             &nbsp;import personal_branding as pb
         ModuleNotFoundError: No module named 'personal_branding'</span>
