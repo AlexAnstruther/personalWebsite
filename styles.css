@@ -103,10 +103,11 @@ nav ul li a:hover {
 @media (max-width: 768px) {
     .scroller section {
         flex-direction: column;
+        text-align: left;
     }
 
     .media img, .media embed {
-        display: none; /* Hide images and embeds on mobile */
+        display: none;
     }
 }
 
