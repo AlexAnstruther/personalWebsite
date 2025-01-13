@@ -65,7 +65,6 @@ nav ul li a:hover {
     background-color: #FFB74D;
 }
 
-
 #data-science {
     background-color: #BA68C8;
 }
@@ -76,13 +75,6 @@ nav ul li a:hover {
 
 #analysis {
     background-color: #F06292;
-}
-
-#pdf-viewer {
-    width: 100%;
-    height: 600px;
-    border: 1px solid #ccc;
-    overflow: auto;
 }
 
 .content {
@@ -96,8 +88,10 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.media img {
+.media img, .media embed {
     width: 33vw;
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -106,8 +100,7 @@ nav ul li a:hover {
         text-align: left;
     }
 
-    .media {
-        display: none;
+    .content.media {
+        display: none; /* Ensure all media content is hidden */
     }
 }
-
