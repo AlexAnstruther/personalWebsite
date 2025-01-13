@@ -104,5 +104,9 @@ nav ul li a:hover {
     .scroller section {
         flex-direction: column;
     }
+
+    .media img, .media embed {
+        display: none; /* Hide images and embeds on mobile */
+    }
 }
 
